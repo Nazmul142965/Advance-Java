@@ -1,0 +1,277 @@
+2026-07-15T17:42:28.885+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 22256 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:42:28.886+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:42:29.037+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:42:29.038+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:42:29.039+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:42:29.053+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 164 ms
+2026-07-15T17:42:29.072+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:42:29.124+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:42:29.126+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.284 seconds (process running for 167.592)
+2026-07-15T17:42:29.128+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:48:15.365+06:00  INFO 22256 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2026-07-15T17:48:15.367+06:00  INFO 22256 --- [HelloSpringBoot] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:48:15.372+06:00  INFO 22256 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:48:15.485+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 22256 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:48:15.486+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:48:15.760+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:48:15.762+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:48:15.762+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:48:15.778+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 289 ms
+2026-07-15T17:48:15.812+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:48:15.891+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:48:15.893+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.439 seconds (process running for 514.359)
+2026-07-15T17:48:15.895+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:48:17.284+06:00  INFO 22256 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-07-15T17:48:17.285+06:00  INFO 22256 --- [HelloSpringBoot] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:48:17.290+06:00  INFO 22256 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:48:17.372+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 22256 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:48:17.373+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:48:17.475+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:48:17.475+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:48:17.476+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:48:17.489+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 115 ms
+2026-07-15T17:48:17.507+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:48:17.549+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:48:17.551+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.195 seconds (process running for 516.017)
+2026-07-15T17:48:17.552+06:00  INFO 22256 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:48:19.722+06:00  INFO 22256 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:48:19.722+06:00  INFO 22256 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:48:19.723+06:00  INFO 22256 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T17:48:19.732+06:00  WARN 22256 --- [HelloSpringBoot] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-07-15T17:48:32.657+06:00  WARN 22256 --- [HelloSpringBoot] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-07-15T17:48:45.388+06:00  INFO 22256 --- [HelloSpringBoot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:48:45.393+06:00  INFO 22256 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:48:47.573+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:48:47.576+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:48:47.629+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-15T17:48:47.629+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-15T17:48:48.334+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:48:48.344+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:48:48.345+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:48:48.376+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 746 ms
+2026-07-15T17:48:48.465+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:48:48.706+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:48:48.711+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 1.57 seconds (process running for 2.262)
+2026-07-15T17:49:40.222+06:00  INFO 7908 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2026-07-15T17:49:40.227+06:00  INFO 7908 --- [HelloSpringBoot] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:49:40.235+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:49:40.325+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:49:40.325+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:49:40.552+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:49:40.553+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:49:40.553+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:49:40.568+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 239 ms
+2026-07-15T17:49:40.586+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:49:40.638+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:49:40.641+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.343 seconds (process running for 54.192)
+2026-07-15T17:49:40.643+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:49:42.033+06:00  INFO 7908 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-07-15T17:49:42.034+06:00  INFO 7908 --- [HelloSpringBoot] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:49:42.039+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:49:42.140+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:49:42.140+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:49:42.269+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:49:42.270+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:49:42.270+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:49:42.285+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 143 ms
+2026-07-15T17:49:42.301+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:49:42.353+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:49:42.356+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.237 seconds (process running for 55.907)
+2026-07-15T17:49:42.357+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:49:48.508+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:49:48.508+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:49:48.510+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T17:50:28.858+06:00  INFO 7908 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-07-15T17:50:28.859+06:00  INFO 7908 --- [HelloSpringBoot] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:50:28.865+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:50:28.964+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:50:28.965+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:50:29.171+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:50:29.173+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:50:29.173+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:50:29.189+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 221 ms
+2026-07-15T17:50:29.208+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:50:29.249+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:50:29.251+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.312 seconds (process running for 102.803)
+2026-07-15T17:50:29.252+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:50:29.441+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:50:29.442+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:50:29.443+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T17:50:30.646+06:00  INFO 7908 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-07-15T17:50:30.648+06:00  INFO 7908 --- [HelloSpringBoot] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:50:30.653+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:50:30.730+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:50:30.730+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:50:30.828+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:50:30.829+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:50:30.829+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:50:30.840+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 108 ms
+2026-07-15T17:50:30.853+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:50:30.889+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:50:30.891+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.18 seconds (process running for 104.442)
+2026-07-15T17:50:30.892+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:50:32.060+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:50:32.061+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:50:32.061+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-15T17:51:17.399+06:00  INFO 7908 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-07-15T17:51:17.400+06:00  INFO 7908 --- [HelloSpringBoot] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:51:17.405+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:51:17.502+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:51:17.503+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:51:17.656+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:51:17.657+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:51:17.657+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:51:17.673+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 167 ms
+2026-07-15T17:51:17.687+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:51:17.733+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:51:17.735+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.254 seconds (process running for 151.286)
+2026-07-15T17:51:17.736+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:51:18.144+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:51:18.145+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:51:18.146+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T17:51:19.131+06:00  INFO 7908 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-07-15T17:51:19.132+06:00  INFO 7908 --- [HelloSpringBoot] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T17:51:19.137+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T17:51:19.215+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 7908 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T17:51:19.216+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:51:19.326+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T17:51:19.327+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T17:51:19.327+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T17:51:19.339+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 122 ms
+2026-07-15T17:51:19.356+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T17:51:19.401+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T17:51:19.403+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.205 seconds (process running for 152.954)
+2026-07-15T17:51:19.404+06:00  INFO 7908 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T17:51:25.555+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T17:51:25.555+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T17:51:25.557+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T17:59:42.243+06:00  INFO 7908 --- [HelloSpringBoot] [http-nio-8080-exec-8] c.patu.hellospringboot.indexController   : Contact From Submitted: Contact(name=Nazmul Hasan, email=afnannazmul@gmail.com, message=ds)
+2026-07-15T18:01:27.468+06:00  INFO 7908 --- [HelloSpringBoot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:01:27.473+06:00  INFO 7908 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:01:31.227+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 21140 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T18:01:31.230+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:01:31.289+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-15T18:01:31.290+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-15T18:01:32.026+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T18:01:32.039+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:01:32.040+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:01:32.075+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 784 ms
+2026-07-15T18:01:32.169+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T18:01:32.401+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T18:01:32.407+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 1.699 seconds (process running for 2.414)
+2026-07-15T18:02:26.154+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:02:26.154+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:02:26.155+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-15T18:02:26.190+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] c.patu.hellospringboot.indexController   : Contact From Submitted: Contact(name=Nazmul Hasan, email=afnannazmul@gmail.com, message=ds)
+2026-07-15T18:05:39.387+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-2] c.patu.hellospringboot.indexController   : Contact From Submitted: Contact(name=Nazmul Hasan, email=afnannazmul@gmail.com, message=sd)
+2026-07-15T18:10:22.120+06:00  INFO 21140 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2026-07-15T18:10:22.126+06:00  INFO 21140 --- [HelloSpringBoot] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:10:22.131+06:00  INFO 21140 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:10:22.207+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 21140 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T18:10:22.208+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:10:22.367+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T18:10:22.368+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:10:22.369+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:10:22.383+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 173 ms
+2026-07-15T18:10:22.403+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T18:10:22.447+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T18:10:22.450+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.265 seconds (process running for 532.457)
+2026-07-15T18:10:22.452+06:00  INFO 21140 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:12:08.851+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:12:08.852+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:12:08.853+06:00  INFO 21140 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:15:27.556+06:00  INFO 21140 --- [HelloSpringBoot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:15:27.561+06:00  INFO 21140 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:15:31.557+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 22456 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T18:15:31.560+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:15:31.612+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-15T18:15:31.612+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-15T18:15:32.310+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T18:15:32.327+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:15:32.327+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:15:32.357+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 744 ms
+2026-07-15T18:15:32.445+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T18:15:32.668+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T18:15:32.673+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 1.576 seconds (process running for 2.248)
+2026-07-15T18:15:35.814+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:15:35.815+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:15:35.816+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:15:46.259+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-1] c.patu.hellospringboot.indexController   : Registration From Submitted: Registration(name=sfs, id=12, password=sd)
+2026-07-15T18:17:38.381+06:00  INFO 22456 --- [HelloSpringBoot] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-07-15T18:17:38.385+06:00  INFO 22456 --- [HelloSpringBoot] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:17:38.391+06:00  INFO 22456 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T18:17:38.500+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 22456 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T18:17:38.501+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:17:38.780+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T18:17:38.781+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:17:38.782+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:17:38.801+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 296 ms
+2026-07-15T18:17:38.814+06:00  WARN 22456 --- [HelloSpringBoot] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'indexController': Lookup method resolution failed
+2026-07-15T18:17:38.815+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-07-15T18:17:38.823+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-15T18:17:38.850+06:00 ERROR 22456 --- [HelloSpringBoot] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'indexController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1319) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1216) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at com.patu.hellospringboot.HelloSpringBootApplication.main(HelloSpringBootApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.0.jar:4.1.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.patu.hellospringboot.indexController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@55d19c30]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/patu/hellospringboot/Registration
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3011) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2330) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.8.jar:7.0.8]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.patu.hellospringboot.Registration
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:502) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:560) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.1.0.jar:4.1.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:502) ~[na:na]
+	... 30 common frames omitted
+
+2026-07-15T18:17:40.285+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Starting HelloSpringBootApplication using Java 26.0.1 with PID 22456 (E:\Advance Java\HelloSpringBoot\target\classes started by nazmul in E:\Advance Java\HelloSpringBoot)
+2026-07-15T18:17:40.286+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T18:17:40.407+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T18:17:40.408+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T18:17:40.408+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T18:17:40.420+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 133 ms
+2026-07-15T18:17:40.436+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-07-15T18:17:40.475+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T18:17:40.477+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] c.p.h.HelloSpringBootApplication         : Started HelloSpringBootApplication in 0.207 seconds (process running for 130.052)
+2026-07-15T18:17:40.478+06:00  INFO 22456 --- [HelloSpringBoot] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T18:33:48.705+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T18:33:48.705+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T18:33:48.706+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T18:33:57.732+06:00  INFO 22456 --- [HelloSpringBoot] [http-nio-8080-exec-5] c.patu.hellospringboot.indexController   : Registration From Submitted: Registration(name=Nazmul Hasan, id=12, password=gh)
+2026-07-15T18:35:37.142+06:00  INFO 22456 --- [HelloSpringBoot] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T18:35:37.147+06:00  INFO 22456 --- [HelloSpringBoot] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete

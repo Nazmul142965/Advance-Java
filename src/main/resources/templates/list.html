@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car List</title>
+</head>
+<body>
+
+<h2>Car List</h2>
+<p><a href="/form">Add New Car</a></p>
+<hr>
+
+<table border="1" cellpadding="8">
+    <thead>
+    <tr>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Price</th>
+        <th>Plate</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="carTableBody">
+    <!-- Cars rendered here -->
+    </tbody>
+</table>
+
+<script>
+    let cars = JSON.parse(localStorage.getItem('cars')) || [];
+    const tableBody = document.getElementById('carTableBody');
+
+    if (cars.length === 0) {
+        tableBody.innerHTML = '<tr><td colspan="6">No cars added yet.</td></tr>';
+    } else {
+        cars.forEach((car, index) => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                    <td>${car.make}</td>
+                    <td>${car.model}</td>
+                    <td>${car.year}</td>
+                    <td>${car.price}</td>
+                    <td>${car.plate}</td>
+                    <td>
+                        <a href="/form?edit=${index}">Edit</a> |
+                        <button onclick="deleteCar(${index})">Delete</button>
+                    </td>
+                `;
+            tableBody.appendChild(row);
+        });
+    }
+
+    function deleteCar(index) {
+        if (confirm("Delete this car?")) {
+            cars.splice(index, 1);
+            localStorage.setItem('cars', JSON.stringify(cars));
+            window.location.reload();
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Entry Form</title>
+</head>
+<body>
+
+<h2>Car Form</h2>
+<p><a href="/list">Go to Car List</a></p>
+<hr>
+
+<form id="carForm">
+    <label for="make">Make / Brand:</label><br>
+    <input type="text" id="make" required><br><br>
+
+    <label for="model">Model:</label><br>
+    <input type="text" id="model" required><br><br>
+
+    <label for="year">Year:</label><br>
+    <input type="number" id="year" required><br><br>
+
+    <label for="price">Price:</label><br>
+    <input type="number" id="price" required><br><br>
+
+    <label for="plate">License Plate:</label><br>
+    <input type="text" id="plate" required><br><br>
+
+    <button type="submit" id="saveBtn">Save Car</button>
+</form>
+
+<script>
+    let cars = JSON.parse(localStorage.getItem('cars')) || [];
+
+    // Check if editing existing car (/form?edit=0)
+    const editIndex = new URLSearchParams(window.location.search).get('edit');
+
+    if (editIndex !== null && cars[editIndex]) {
+        const car = cars[editIndex];
+        document.getElementById('make').value = car.make;
+        document.getElementById('model').value = car.model;
+        document.getElementById('year').value = car.year;
+        document.getElementById('price').value = car.price;
+        document.getElementById('plate').value = car.plate;
+        document.getElementById('saveBtn').textContent = "Update Car";
+    }
+
+    // Save data and redirect to /list
+    document.getElementById('carForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const carData = {
+            make: document.getElementById('make').value,
+            model: document.getElementById('model').value,
+            year: document.getElementById('year').value,
+            price: document.getElementById('price').value,
+            plate: document.getElementById('plate').value
+        };
+
+        if (editIndex !== null && cars[editIndex]) {
+            cars[editIndex] = carData; // Edit
+        } else {
+            cars.push(carData); // Add new
+        }
+
+        localStorage.setItem('cars', JSON.stringify(cars));
+        window.location.href = '/list'; // Take me to list
+    });
+</script>
+
+</body>
+</html>

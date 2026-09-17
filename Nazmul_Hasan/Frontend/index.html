@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir Mystery Case Tracker</title>
+    <style>
+        body { font-family: 'Georgia', serif; background-color: #f4efeb; color: #333; margin: 0; padding: 20px; }
+        h1 { text-align: center; color: #7b0000; border-bottom: 2px solid #7b0000; padding-bottom: 10px; }
+        .container { display: flex; gap: 20px; max-width: 1200px; margin: auto; }
+
+        /* Form Styling */
+        .form-section { background: white; padding: 20px; border: 1px solid #ddd; width: 30%; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+        .form-section h3 { background: #800000; color: white; padding: 10px; margin: -20px -20px 20px -20px; text-align: center; }
+        input, select { width: 90%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; display: block; }
+        button { background: #800000; color: white; border: none; padding: 10px; width: 100%; cursor: pointer; font-weight: bold; }
+        button:hover { background: #5a0000; }
+        .update-btn { background: #d48b00; display: none; margin-bottom: 10px;}
+        .update-btn:hover { background: #a66d00; }
+
+        /* Table Styling */
+        .table-section { width: 70%; }
+        table { width: 100%; border-collapse: collapse; background: white; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background: #800000; color: white; }
+        .action-btn { padding: 5px 10px; margin: 2px; cursor: pointer; color: white; border: none; font-size: 12px; }
+        .edit-btn { background: #d48b00; }
+        .delete-btn { background: #cc0000; }
+    </style>
+</head>
+<body>
+
+    <h1>🕵️ Noir Mystery Case Tracker</h1>
+
+    <div class="container">
+        <!-- Form Section -->
+        <div class="form-section">
+            <h3 id="formTitle">File New Case</h3>
+            <form id="caseForm">
+                <label>Case ID</label>
+                <input type="text" id="caseId" required placeholder="e.g. CASE-101">
+
+                <label>Case Title</label>
+                <input type="text" id="caseTitle" required placeholder="e.g. Midnight Caller">
+
+                <label>Lead Detective</label>
+                <input type="text" id="leadDetective" required placeholder="e.g. Sherlock H.">
+
+                <label>Priority</label>
+                <select id="priority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+
+                <label>Status</label>
+                <select id="status">
+                    <option value="Open">Open</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Closed">Closed</option>
+                </select>
+
+                <button type="submit" id="saveBtn">File Record</button>
+                <button type="button" class="update-btn" id="updateBtn" onclick="submitUpdate()">Update Record</button>
+                <button type="button" style="background:#555; margin-top:5px; display:none;" id="cancelBtn" onclick="resetForm()">Cancel</button>
+            </form>
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Case ID</th>
+                        <th>Case Title</th>
+                        <th>Lead Detective</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data will be loaded here via JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Javascript connecting to your Spring Boot API -->
+    <script>
+        // আপনার ব্যাকএন্ডের মূল URL (যেই পোর্টে রান করছেন তা নিশ্চিত করুন)
+        const API_URL = "http://localhost:8080/case";
+
+        // ১. পেজ লোড হলেই সব ডাটা আনবে
+        window.onload = function() {
+            loadCases();
+        };
+
+        // টেবিল লোড করার ফাংশন
+        async function loadCases() {
+            try {
+                const response = await fetch(API_URL);
+                const cases = await response.json();
+
+                let html = "";
+                cases.forEach(c => {
+                    html += `
+                        <tr>
+                            <td>${c.caseId}</td>
+                            <td>${c.caseTitle}</td>
+                            <td>${c.leadDetective}</td>
+                            <td>${c.priority}</td>
+                            <td>${c.status}</td>
+                            <td>
+                                <button class="action-btn edit-btn" onclick="editCase('${c.caseId}', '${c.caseTitle}', '${c.leadDetective}', '${c.priority}', '${c.status}')">Edit</button>
+                                <button class="action-btn delete-btn" onclick="deleteCase('${c.caseId}')">Delete</button>
+                            </td>
+                        </tr>
+                    `;
+                });
+                document.getElementById('tableBody').innerHTML = html;
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        }
+
+        // ২. নতুন ডাটা সেভ করার ফাংশন
+        document.getElementById('caseForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            // ডাটাবেজের ফিল্ড নামের সাথে মিল রেখে অবজেক্ট বানানো (caseTitle)
+            const caseData = {
+                caseId: document.getElementById('caseId').value,
+                caseTitle: document.getElementById('caseTitle').value,
+                leadDetective: document.getElementById('leadDetective').value,
+                priority: document.getElementById('priority').value,
+                status: document.getElementById('status').value
+            };
+
+            try {
+                await fetch(API_URL, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(caseData)
+                });
+                resetForm();
+                loadCases(); // সেভ করার পর টেবিল আপডেট
+            } catch (error) {
+                console.error("Error saving data:", error);
+            }
+        });
+
+        // ৩. ডিলিট করার ফাংশন
+        async function deleteCase(id) {
+            if(confirm("Are you sure you want to delete Case: " + id + "?")) {
+                try {
+                    await fetch(`${API_URL}/${id}`, { method: "DELETE" });
+                    loadCases(); // ডিলিট করার পর টেবিল আপডেট
+                } catch (error) {
+                    console.error("Error deleting case:", error);
+                }
+            }
+        }
+
+        // ৪. এডিট বাটনে চাপ দিলে ফর্মে ডাটা বসানো
+        function editCase(id, title, detective, priority, status) {
+            document.getElementById('formTitle').innerText = "Update Case";
+            document.getElementById('caseId').value = id;
+            document.getElementById('caseId').readOnly = true; // আইডি যেন চেঞ্জ না করে
+            document.getElementById('caseTitle').value = title;
+            document.getElementById('leadDetective').value = detective;
+            document.getElementById('priority').value = priority;
+            document.getElementById('status').value = status;
+
+            document.getElementById('saveBtn').style.display = "none";
+            document.getElementById('updateBtn').style.display = "block";
+            document.getElementById('cancelBtn').style.display = "block";
+        }
+
+        // ৫. আপডেট ডাটা সাবমিট করা
+        async function submitUpdate() {
+            const id = document.getElementById('caseId').value;
+            const updatedData = {
+                caseId: id,
+                caseTitle: document.getElementById('caseTitle').value,
+                leadDetective: document.getElementById('leadDetective').value,
+                priority: document.getElementById('priority').value,
+                status: document.getElementById('status').value
+            };
+
+            try {
+                await fetch(`${API_URL}/${id}`, {
+                    method: "PUT",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(updatedData)
+                });
+                resetForm();
+                loadCases();
+            } catch (error) {
+                console.error("Error updating case:", error);
+            }
+        }
+
+        // ফর্ম রিসেট করার ফাংশন
+        function resetForm() {
+            document.getElementById('caseForm').reset();
+            document.getElementById('caseId').readOnly = false;
+            document.getElementById('formTitle').innerText = "File New Case";
+            document.getElementById('saveBtn').style.display = "block";
+            document.getElementById('updateBtn').style.display = "none";
+            document.getElementById('cancelBtn').style.display = "none";
+        }
+    </script>
+</body>
+</html>
